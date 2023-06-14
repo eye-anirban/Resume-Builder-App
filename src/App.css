@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #87afff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,113 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content {
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 20px;
+}
+
+.section-heading {
+  text-align: center;
+}
+
+.section-container {
+  margin-top: 20px;
+}
+
+.section {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(255, 212, 220);
+  width: 100%; 
+  max-width: 1000px; 
+  
+}
+
+.section-inactive {
+  background-color: #f1f1f1; 
+}
+
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.left-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.left-buttons button,
+.right-buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.left-buttons button:focus,
+.right-buttons button:focus {
+  outline: none;
+}
+
+.right-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.info-icon {
+  color: #999;
+  margin-right: 5px;
+}
+
+button svg {
+  width: 50px;
+  height: 50px;
+}
+
+button:hover svg {
+  color: #555;
+}
+
+p {
+  margin: 0;
+}
+
+.save-changes-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.save-changes-button button {
+  background-color: purple;
+  color: white;
+  padding: 24px 48px;
+  font-size: 16px; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.save-changes-button button:hover {
+  background-color: #8a2be2; 
 }
